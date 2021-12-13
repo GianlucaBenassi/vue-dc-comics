@@ -111,7 +111,18 @@
         <!-- socials -->
         <div class="social">
             <div class="container">
-                
+
+                <a href="#" class="sing-up">sing-up now!</a>
+
+                <div class="icons">
+                    <a href="#"><span>follow us</span></a>
+                    <a href="#"><img src="..\assets\img\footer-facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="..\assets\img\footer-twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="..\assets\img\footer-youtube.png" alt="youtube"></a>
+                    <a href="#"><img src="..\assets\img\footer-pinterest.png" alt="pinterest"></a>
+                    <a href="#"><img src="..\assets\img\footer-periscope.png" alt="peroscope"></a>
+                </div>
+
             </div>
         </div>
 
@@ -167,7 +178,6 @@ export default {
     background-position: center;
 
     .container {
-        overflow: hidden;
         display: flex;
         justify-content: space-between;
 
@@ -205,6 +215,36 @@ export default {
 
     }
     
+}
+
+.social {
+    background-color: #303030;
+
+    .container {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .sing-up {
+            color: #fff;
+            text-transform: uppercase;
+            border: 2px solid $mainColor;
+            padding: 10px;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+
+            a {
+                color: $mainColor;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+        }
+    }
 }
 
 </style>
