@@ -3,9 +3,9 @@
     <header>
         <div class="container">
 
-            <div class="logo">
+            <a href="#" class="logo">
                 <img src="..\..\assets\img\dc-logo.png" alt="header logo">
-            </div>
+            </a>
 
             <nav>
                 <ul>
@@ -70,11 +70,11 @@ nav {
             line-height: 100PX;
 
             a {
+                height: 100%;
                 color: #000;
                 font-size: 14px;
                 font-weight: bold;
                 text-transform: uppercase;
-                height: 100%;
                 display: inline-block;
 
                 &.active, &:hover {

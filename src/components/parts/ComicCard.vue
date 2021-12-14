@@ -20,6 +20,11 @@ export default {
 .card {
     display: flex;
     flex-direction: column;
+    transition: all .2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 
     img {
         width: 100%;

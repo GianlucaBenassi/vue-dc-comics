@@ -39,6 +39,11 @@ a {
         @extend .btn;
         color: white;
         background-color: $mainColor;
+        transition: all .3s;
+
+        &:hover {
+            color: $secondColor;
+        }
     }
     
     &.small {

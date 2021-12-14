@@ -152,6 +152,7 @@ export default {
         .box{
             min-width: 200px;
 
+
             a {
                 margin: 20px 0;
                 display: flex;
@@ -166,8 +167,14 @@ export default {
                     text-transform: uppercase;
                     white-space: nowrap;
                     margin-left: 15px;
+                    transition: all .3s;
                 }
             }
+
+            &:hover a span {
+                color: $secondColor;
+            }
+
         }
     }
 }
@@ -200,6 +207,11 @@ export default {
                         font-size: 14px;
                         margin: 3px 0;
                         display: inline-block;
+
+                        &:hover {
+                            color: #fff;
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
