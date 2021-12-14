@@ -8,36 +8,36 @@
 
                 <div class="box">
                     <a href="#">
-                        <img src="..\assets\img\buy-comics-digital-comics.png" alt="Digital comics">
+                        <img src="..\..\assets\img\buy-comics-digital-comics.png" alt="Digital comics">
                         <span>digital comics</span>
                     </a>
                 </div>
 
                 <div class="box">
                     <a href="#">
-                        <img src="..\assets\img\buy-comics-merchandise.png" alt="DC merchandise">
+                        <img src="..\..\assets\img\buy-comics-merchandise.png" alt="DC merchandise">
                         <span>dc merchandise</span>
                     </a>
                 </div>
 
                 <div class="box">
                     <a href="#">
-                        <img src="..\assets\img\buy-comics-subscriptions.png" alt="Subscription">
+                        <img src="..\..\assets\img\buy-comics-subscriptions.png" alt="Subscription">
                         <span>subscription</span>
                     </a>
                 </div>
 
                 <div class="box">
                     <a href="#">
-                        <img src="..\assets\img\buy-comics-shop-locator.png" alt="Comic shop locator">
+                        <img src="..\..\assets\img\buy-comics-shop-locator.png" alt="Comic shop locator">
                         <span>comic shop locator</span>
                     </a>
                 </div>
 
                 <div class="box">
                     <a href="#">
-                        <!-- <img src="..\assets\img\buy-comics-shop-locator.png" alt="Comic shop locator"> -->
-                        <img src="..\assets\img\buy-dc-power-visa.svg" alt="DC power VISA">
+                        <!-- <img src="..\..\assets\img\buy-comics-shop-locator.png" alt="Comic shop locator"> -->
+                        <img src="..\..\assets\img\buy-dc-power-visa.svg" alt="DC power VISA">
                         <span>dc power visa</span>
                     </a>
                 </div>
@@ -116,11 +116,11 @@
 
                 <div class="icons">
                     <a href="#"><span>follow us</span></a>
-                    <a href="#"><img src="..\assets\img\footer-facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="..\assets\img\footer-twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="..\assets\img\footer-youtube.png" alt="youtube"></a>
-                    <a href="#"><img src="..\assets\img\footer-pinterest.png" alt="pinterest"></a>
-                    <a href="#"><img src="..\assets\img\footer-periscope.png" alt="peroscope"></a>
+                    <a href="#"><img src="..\..\assets\img\footer-facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="..\..\assets\img\footer-twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="..\..\assets\img\footer-youtube.png" alt="youtube"></a>
+                    <a href="#"><img src="..\..\assets\img\footer-pinterest.png" alt="pinterest"></a>
+                    <a href="#"><img src="..\..\assets\img\footer-periscope.png" alt="peroscope"></a>
                 </div>
 
             </div>
@@ -138,7 +138,7 @@ export default {
 
 <style lang="scss" scoped>
 
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 
 .shop {
     background-color: $mainColor;
@@ -173,7 +173,7 @@ export default {
 }
 
 .links {
-    background-image: url('../assets/img/footer-bg.jpg');
+    background-image: url('../../assets/img/footer-bg.jpg');
     background-size: cover;
     background-position: center;
 
@@ -208,7 +208,7 @@ export default {
         .right {
             height: auto;
             width: 50%;
-            background-image: url('../assets/img/dc-logo-bg.png');
+            background-image: url('../../assets/img/dc-logo-bg.png');
             background-size: cover;
             background-position: center;
         }

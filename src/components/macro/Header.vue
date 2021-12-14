@@ -4,7 +4,7 @@
         <div class="container">
 
             <div class="logo">
-                <img src="..\assets\img\dc-logo.png" alt="header logo">
+                <img src="..\..\assets\img\dc-logo.png" alt="header logo">
             </div>
 
             <nav>
@@ -35,7 +35,7 @@ export default {
 
 <style lang="scss" scoped>
 
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 
 header {
     height: 100px;
