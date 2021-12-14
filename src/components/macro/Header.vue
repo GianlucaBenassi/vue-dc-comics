@@ -64,6 +64,10 @@ export default {
 header {
     height: 100px;
     position: relative;
+
+    @media screen and (max-width: 1200px) {
+        padding: 0 20px;
+    }
 }
 
 .close {
