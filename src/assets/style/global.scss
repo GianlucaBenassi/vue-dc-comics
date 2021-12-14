@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import './partials/variables.scss';
 
 // ***** reset *****
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 // ***** containers *****
@@ -21,10 +18,35 @@ body {
 
 // ***** typo *****
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    
+    &-blue {
+        @extend .btn;
+        color: white;
+        background-color: $mainColor;
+    }
+    
+    &.small {
+        padding: 10px 50px;
+    }
+
+    &.big {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
 }

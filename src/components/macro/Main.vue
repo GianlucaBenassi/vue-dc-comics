@@ -6,9 +6,17 @@
         </div>
 
         <div class="container">
-            <div class="comic-list">
+
+            <a href="#" class="btn-blue big" id="current-series">current series</a>
+
+            <div class="comic-list row">
                 <ComicCard v-for="(comic, index) in comics" :key="index" :comicImg="comic.thumb" :comicTitle="comic.series"/>
             </div>
+
+            <div class="row">
+                <a href="#" class="btn-blue small" id="load-more">load more</a>
+            </div>
+
         </div>
     </main>
 </template>
@@ -109,6 +117,7 @@ export default {
 
 main {
     color: #fff;
+    font-size: 14px;
     background-color: $secondColor;
 }
 
@@ -123,14 +132,27 @@ main {
     }
 }
 
-.comic-list {
+.row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comic-list {
 
     > * {
         width: calc(100% / 6 - 30px);
         margin: 15px;
     }
+}
+
+#current-series {
+    position: relative;
+    bottom: 20px;
+}
+
+#load-more {
+    margin: 20px;
 }
 
 </style>

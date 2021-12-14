@@ -30,7 +30,6 @@ export default {
     
     span {
         color: #fff;
-        font-size: 14px;
         text-transform: uppercase;
         margin-top: 20px;
     }
