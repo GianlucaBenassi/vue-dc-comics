@@ -143,6 +143,19 @@ main {
     > * {
         width: calc(100% / 6 - 30px);
         margin: 15px;
+
+        @media screen and (max-width: 1200px) {
+            width: calc(100% / 4 - 30px);
+        }
+
+        @media screen and (max-width: 720px) {
+            width: calc(100% / 3 - 30px);
+        }
+
+        @media screen and (max-width: 520px) {
+            width: calc(100% / 2 - 30px);
+        }
+
     }
 }
 
