@@ -201,28 +201,43 @@ export default {
                     padding: 20px 0;
                 }
 
-                ul {
-                    li a {
-                        color: #8f8f8f;
-                        font-size: 14px;
-                        margin: 3px 0;
-                        display: inline-block;
+                ul li a {
+                    color: #8f8f8f;
+                    font-size: 14px;
+                    margin: 3px 0;
+                    display: inline-block;
 
-                        &:hover {
-                            color: #fff;
-                            text-decoration: underline;
-                        }
+                    &:hover {
+                        color: #fff;
+                        text-decoration: underline;
                     }
+                }
+                
+            }
+
+            @media screen and (max-width: 520px) {
+                flex-direction: column;
+                margin-left: 40px;
+
+                .col {
+                    padding: 10px 0;
                 }
             }
         }
 
         .right {
-            height: auto;
             width: 50%;
             background-image: url('../../assets/img/dc-logo-bg.png');
             background-size: cover;
             background-position: center;
+
+            @media screen and (max-width: 1200px) {
+                width: 40%;
+            }
+
+            @media screen and (max-width: 720px) {
+                display: none;
+            }
         }
 
     }
