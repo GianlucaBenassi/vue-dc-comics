@@ -271,6 +271,15 @@ export default {
                 margin-left: 10px;
             }
         }
+
+        @media screen and (max-width: 520px) {
+            flex-direction: column;
+            align-items: center;
+
+            .sing-up {
+                margin-bottom: 20px;
+            }
+        }
     }
 }
 
